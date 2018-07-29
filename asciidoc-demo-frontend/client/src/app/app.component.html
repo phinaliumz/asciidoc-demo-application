@@ -1,0 +1,13 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+<div class="form-group">
+	<label for="custom-input">The input you want to the generated PDF</label>
+	<input id="custom-input" name="input" [(ngModel)]="input" required>
+	
+	<button class="btn btn-success" (click)="getPdf()">Get generated PDF</button>
+</div>
+</div>
+
